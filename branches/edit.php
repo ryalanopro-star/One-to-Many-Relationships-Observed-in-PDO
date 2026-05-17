@@ -80,7 +80,7 @@ require_once '../includes/header.php';
 
         <div class="app-alert app-alert-info" style="margin-bottom:1.5rem">
             Editing: <strong><?= htmlspecialchars($branch['branch_name']) ?></strong>
-            &nbsp;&mdash;&nbsp; Branch ID: <?= $branch['id'] ?>
+            - Branch ID: <?= $branch['id'] ?>
         </div>
 
         <?php if (!empty($errors)): ?>
