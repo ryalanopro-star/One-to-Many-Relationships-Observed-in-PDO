@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .app-main          { padding: 1.5rem 0 3rem; }
+    .app-form-card     { padding: 1.5rem; }
+    .hero-title        { font-size: 1.625rem; }
+    .stat-value        { font-size: 1.625rem; }
+    .dashboard-hero    { padding: 1.75rem; }
+    .rel-diagram       { flex-wrap: wrap; gap: 0.5rem; }
+    .page-title        { font-size: 1.5rem; }
+}
+
+@media (max-width: 576px) {
+    .table-actions                          { flex-wrap: wrap; }
+    .app-table thead th,
+    .app-table tbody td                     { padding: 0.75rem 0.875rem; }
+}

@@ -1,0 +1,82 @@
+.app-table-wrap {
+    overflow-x: auto;
+    border-radius: var(--radius-lg);
+}
+
+.app-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 0.875rem;
+}
+
+.app-table thead th {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--gray-600);
+    background: var(--gray-50);
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px solid var(--gray-200);
+    white-space: nowrap;
+}
+
+.app-table thead th:first-child { border-radius: var(--radius-md) 0 0 0; }
+.app-table thead th:last-child  { border-radius: 0 var(--radius-md) 0 0; }
+
+.app-table tbody tr {
+    transition: var(--transition);
+    border-bottom: 1px solid var(--gray-100);
+}
+
+.app-table tbody tr:last-child { border-bottom: none; }
+
+.app-table tbody tr:hover { background: var(--gray-50); }
+
+.app-table tbody td {
+    padding: 0.9rem 1.25rem;
+    color: var(--dark);
+    vertical-align: middle;
+}
+
+.table-actions {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.action-btn {
+    padding: 0.3rem 0.75rem;
+    border-radius: 980px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    transition: var(--transition);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.action-btn-edit {
+    background: var(--accent-light);
+    color: var(--accent);
+    border-color: transparent;
+}
+
+.action-btn-edit:hover {
+    background: var(--accent);
+    color: var(--white);
+}
+
+.action-btn-delete {
+    background: var(--danger-light);
+    color: var(--danger);
+    border-color: transparent;
+}
+
+.action-btn-delete:hover {
+    background: var(--danger);
+    color: var(--white);
+}
